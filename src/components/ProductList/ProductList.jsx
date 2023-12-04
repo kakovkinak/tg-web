@@ -2,14 +2,15 @@ import React, {useCallback, useEffect, useState} from 'react';
 import './ProductList.css';
 import ProductItem from "../ProductItem/ProductItem";
 import {useTelegram} from "../../hook/useTelegram";
+import konvers_w from "../../img/konvers_w.jpg";
 
 const products = [
-    {id: '1', img: 'img/Коверс_б.jpeg', title: 'Кеди', price: 1549, description: 'Білого кольору'},
-    {id: '2', img: 'img/Туфлі_бе.jpeg', title: 'Туфлі', price: 4800, description: 'Бежевого кольору'},
-    {id: '3', img: 'img/Кросівки_ч.jpeg',title: 'Кросівки', price: 2100, description: 'Чорного кольору'},
-    {id: '4', img: 'img/Сланці_Ч.jpeg',title: 'Сланці', price: 990, description: 'Чорного кольору'},
-    {id: '5', img: 'img/Черевики_беж.jpeg',title: 'Черевики', price: 5000, description: 'Бежевого кольору'},
-    {id: '6', img: 'img/Мокасини_кор.jpeg',title: 'Мокасини', price: 1915, description: 'Коричневого кольору'},
+    {id: '1', img: konvers_w, title: 'Кеди', price: 1549, description: 'Білого кольору'},
+    {id: '2', img: 'img/Туфлі_бе.jpg', title: 'Туфлі', price: 4800, description: 'Бежевого кольору'},
+    {id: '3', img: 'img/Кросівки_ч.jpg',title: 'Кросівки', price: 2100, description: 'Чорного кольору'},
+    {id: '4', img: 'img/Сланці_Ч.jpg',title: 'Сланці', price: 990, description: 'Чорного кольору'},
+    {id: '5', img: 'img/Черевики_беж.jpg',title: 'Черевики', price: 5000, description: 'Бежевого кольору'},
+    {id: '6', img: 'img/Мокасини_кор.jpg',title: 'Мокасини', price: 1915, description: 'Коричневого кольору'},
 ]
 
 const getTotalPrice = (items = []) => {
