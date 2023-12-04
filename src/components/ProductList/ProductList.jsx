@@ -6,11 +6,11 @@ import konvers_w from "../../img/konvers_w.jpg";
 
 const products = [
     {id: '1', img: konvers_w, title: 'Кеди', price: 1549, description: 'Білого кольору'},
-    {id: '2', img: 'img/Туфлі_бе.jpg', title: 'Туфлі', price: 4800, description: 'Бежевого кольору'},
-    {id: '3', img: 'img/Кросівки_ч.jpg',title: 'Кросівки', price: 2100, description: 'Чорного кольору'},
-    {id: '4', img: 'img/Сланці_Ч.jpg',title: 'Сланці', price: 990, description: 'Чорного кольору'},
-    {id: '5', img: 'img/Черевики_беж.jpg',title: 'Черевики', price: 5000, description: 'Бежевого кольору'},
-    {id: '6', img: 'img/Мокасини_кор.jpg',title: 'Мокасини', price: 1915, description: 'Коричневого кольору'},
+    {id: '2', img: '', title: 'Туфлі', price: 4800, description: 'Бежевого кольору'},
+    {id: '3', img: '',title: 'Кросівки', price: 2100, description: 'Чорного кольору'},
+    {id: '4', img: '',title: 'Сланці', price: 990, description: 'Чорного кольору'},
+    {id: '5', img: '',title: 'Черевики', price: 5000, description: 'Бежевого кольору'},
+    {id: '6', img: '',title: 'Мокасини', price: 1915, description: 'Коричневого кольору'},
 ]
 
 const getTotalPrice = (items = []) => {
