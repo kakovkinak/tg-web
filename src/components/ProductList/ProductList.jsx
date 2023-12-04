@@ -5,7 +5,7 @@ import {useTelegram} from "../../hook/useTelegram";
 
 
 const products = [
-    {id: '1', title: 'Кеди', price: 1549, description: 'Білого кольору',},
+    {id: '1', title: 'Кеди', price: 1549, description: 'Білого кольору', img: "konvers_w.jpg"},
     {id: '2', title: 'Туфлі', price: 4800, description: 'Бежевого кольору'},
     {id: '3', title: 'Кросівки', price: 2100, description: 'Чорного кольору'},
     {id: '4', title: 'Сланці', price: 990, description: 'Чорного кольору'},
